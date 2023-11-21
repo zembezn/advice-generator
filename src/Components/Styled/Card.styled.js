@@ -14,12 +14,13 @@ border-radius: 15px;
 `
 export const Heading = styled.p`
 width: 100%; 
+margin-top: auto;
 align-content: center;
 `
 export const Text = styled.p` 
 `
 export const Divider = styled.div`
-width: 100%
+width: 100%;
 align-content: center; 
 `
 export const Button = styled.button`
