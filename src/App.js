@@ -1,16 +1,22 @@
-/* eslint-disable react/jsx-filename-extension */
-/* eslint-disable indent */
-import React from 'react';
-import GlobalStyles from './Components/Styled/GlobalStyle';
-import { Card } from './Components/Styled/Card.styled';
+import { Card, Heading, Text, Divider, Button } from "./Styled Components/Card.styled";
+import GlobalStyle from "./Styled Components/GlobalStyle";
+import PatternDivider from "./images/pattern-divider-desktop.svg";
+import ButtonIcon from "./images/icon-dice.svg"
 
-function App() {
-    return (
-      <>
-        <GlobalStyles />
-        <Card />
-      </>
-    );
-    }
+const App = () => {
+  return (
+    <>
+      <GlobalStyle />
+      <Card>
+        <Heading>ADVICE #<span id="advice-id"></span></Heading>
+        <Text>"<span id="advice-text"></span>"</Text>
+        <Divider><img src={PatternDivider} alt="Divider" /></Divider>
+        <Button>
+          <img src={ButtonIcon} alt="Icon" />
+        </Button>
+      </Card>
+    </>
+  );
+}
 
 export default App;
