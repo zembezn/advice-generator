@@ -1,5 +1,5 @@
-import { Card, Heading, Text, Divider, Button } from "./Styled Components/Card.styled";
-import GlobalStyle from "./Styled Components/GlobalStyle";
+import { Card, Heading, Text, Divider, Button } from "./Components/Card.styled";
+import GlobalStyle from "./Components/GlobalStyle";
 import PatternDivider from "./images/pattern-divider-desktop.svg";
 import ButtonIcon from "./images/icon-dice.svg"
 

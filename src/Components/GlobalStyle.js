@@ -1,7 +1,6 @@
-/* eslint-disable linebreak-style */
 import { createGlobalStyle } from 'styled-components';
 
-const GlobalStyles = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
 
 * {
     margin: 0;
@@ -24,4 +23,4 @@ p {
 }
 `;
 
-export default GlobalStyles;
+export default GlobalStyle;
