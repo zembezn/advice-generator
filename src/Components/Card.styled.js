@@ -8,24 +8,28 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column; 
-justify-content: space-between;
 background-color: hsl(217, 19%, 24%);
 border-radius: 15px;
 `
-export const Heading = styled.p`
-width: 100%; 
-margin-top: auto;
+export const Heading = styled.p` 
 align-content: center;
+color: hsl(150, 100%, 66%);
+font-size: 60%;
+letter-spacing: 4.5px;
+margin-top: 8%;
 `
-export const Text = styled.p` 
+export const Text = styled.p`
+margin: auto;
 `
 export const Divider = styled.div`
-width: 100%;
-align-content: center; 
+align-content: center;
+margin-bottom: 12%;
 `
 export const Button = styled.button`
+position: absolute;
+bottom: 295px;
 width: 70px;
 height: 70px;
 border-radius: 100%;
-background-color: hsl(193, 38%, 86%);
+background-color: hsl(150, 100%, 66%);
 `
