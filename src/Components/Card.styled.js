@@ -28,8 +28,14 @@ margin-bottom: 12%;
 export const Button = styled.button`
 position: absolute;
 bottom: 295px;
-width: 70px;
-height: 70px;
+width: 65px;
+height: 65px;
 border-radius: 100%;
+border: none;
 background-color: hsl(150, 100%, 66%);
+cursor: pointer;
+
+&:hover {
+    filter: drop-shadow(0 0 0.75rem hsl(150, 100%, 66%));
+}
 `
