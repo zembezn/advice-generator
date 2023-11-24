@@ -19,7 +19,7 @@ letter-spacing: 4.5px;
 margin-top: 8%;
 `
 export const Text = styled.p`
-margin: auto;
+align-items: center;
 `
 export const Divider = styled.div`
 align-content: center;
