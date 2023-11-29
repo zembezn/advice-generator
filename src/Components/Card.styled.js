@@ -10,21 +10,21 @@ align-items: center;
 flex-direction: column; 
 background-color: hsl(217, 19%, 24%);
 border-radius: 15px;
-`
+`;
 export const Heading = styled.p` 
 align-content: center;
 color: hsl(150, 100%, 66%);
 font-size: 60%;
 letter-spacing: 4.5px;
 margin-top: 8%;
-`
+`;
 export const Text = styled.p`
 align-items: center;
-`
+`;
 export const Divider = styled.div`
 align-content: center;
 margin-bottom: 12%;
-`
+`;
 export const Button = styled.button`
 position: absolute;
 bottom: 295px;
@@ -38,4 +38,4 @@ cursor: pointer;
 &:hover {
     filter: drop-shadow(0 0 0.75rem hsl(150, 100%, 66%));
 }
-`
+`;
