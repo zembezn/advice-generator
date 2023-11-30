@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Heading, Text, TextContainer, Divider, Button } from './Components/Card.styled';
+import { Card, Heading, Text, TextContainer, Divider, Button, Attribute } from './Components/Card.styled';
 import GlobalStyle from './Components/GlobalStyle';
 import ButtonIcon from './images/icon-dice.svg';
 import { useEffect, useState } from 'react';
@@ -38,6 +38,11 @@ const App = () => {
           <img src={ButtonIcon} alt="Button Icon" />
         </Button>
       </Card>
+
+      <Attribute>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target=""> Frontend Mentor </a>.
+        Coded by <a href="https://github.com/zembezn?tab=repositories">Kanya Zembe </a>.
+      </Attribute>
     </>
   );
 };

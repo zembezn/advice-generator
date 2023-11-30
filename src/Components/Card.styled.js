@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Card = styled.div`
 width: 530px;
-height: 330px;
+height: 350px;
 max-width: 100%;
 display: flex;
 justify-content: center;
@@ -18,7 +18,7 @@ border-radius: 15px;
 
 export const Heading = styled.p` 
 position: absolute;
-top: 370px;
+top: 300px;
 align-content: center;
 color: hsl(150, 100%, 66%);
 font-size: 50%;
@@ -26,13 +26,13 @@ letter-spacing: 4.5px;
 
 @media (max-width: 768px) {
     position: absolute;
-    top: 330px;
+    top: 250px;
 }
 `;
 
 export const TextContainer = styled.div`
 width: 100%;
-height: 53%;
+height: 60%;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -79,7 +79,7 @@ img.mobile {
 
 export const Button = styled.button`
 position: absolute;
-bottom: 295px;
+bottom: 348px;
 width: 65px;
 height: 65px;
 align-items: center;
@@ -95,6 +95,14 @@ cursor: pointer;
 
 @media (max-width: 768px) {
     position: absolute;
-    bottom: 255px;
+    bottom: 300px;
 }
+`;
+
+export const Attribute = styled.div`
+display: flex;
+font-size: 12px;
+justify-content: center;
+color: hsl(0, 0%, 100%);
+margin-top: 100px;
 `;
