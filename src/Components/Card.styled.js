@@ -86,8 +86,11 @@ img.mobile {
 }
 `;
 export const ButtonContainer = styled.div`
+width: 65px;
+height: 65px;
 border-radius: 100%;
 margin-top: -35px;
+margin-left: 230px;
 position: relative;
 z-index: 2;
 
@@ -95,6 +98,7 @@ z-index: 2;
     width: 65px;
     height: 65px;
     margin-left: 140px;
+    border: none;
 }
 `;
 
