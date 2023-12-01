@@ -121,5 +121,9 @@ display: flex;
 font-size: 12px;
 justify-content: center;
 color: hsl(0, 0%, 100%);
-margin-top: 80px;
+margin-top: 150px;
+
+@media (max-width: 768px) {
+    margin-top: 180px;
+}
 `;
