@@ -11,6 +11,7 @@ body {
     font-family: 'Manrope', sans-serif;
     background-color: hsl(218, 23%, 16%);
     display: flex;
+    overflow: hidden;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
