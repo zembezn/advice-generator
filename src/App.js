@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Heading, Text, TextContainer, Divider, Button, Attribute } from './Components/Card.styled';
+import { Card, Heading, HeadingContainer, Text, TextContainer, Divider, Button, ButtonContainer, Attribute } from './Components/Card.styled';
 import GlobalStyle from './Components/GlobalStyle';
 import ButtonIcon from './images/icon-dice.svg';
 import { useEffect, useState } from 'react';
@@ -25,8 +25,11 @@ const App = () => {
   return (
     <>
       <GlobalStyle />
+
       <Card>
-        <Heading>ADVICE #{advice.id}</Heading>
+        <HeadingContainer>
+          <Heading>ADVICE #{advice.id}</Heading>
+        </HeadingContainer>
         <TextContainer>
           <Text>&ldquo;{advice.advice}&rdquo;</Text>
         </TextContainer>
@@ -34,10 +37,12 @@ const App = () => {
           <img className='desktop' src={PatternDivider} alt="Divider" />
           <img className='mobile' src={MobilePatternDivider} alt="Mobile Pattern Divider" />
         </Divider>
-        <Button onClick={fetchAdvice} media={MobilePatternDivider}>
+      </Card>
+      <ButtonContainer>
+        <Button className='buttonContainer' onClick={fetchAdvice} media={MobilePatternDivider}>
           <img src={ButtonIcon} alt="Button Icon" />
         </Button>
-      </Card>
+      </ButtonContainer>
 
       <Attribute>
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target=""> Frontend Mentor </a>.
