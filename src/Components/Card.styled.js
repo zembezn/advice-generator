@@ -86,10 +86,8 @@ img.mobile {
 }
 `;
 export const ButtonContainer = styled.div`
-width: 65px;
-height: 65px;
+border-radius: 100%;
 margin-top: -35px;
-margin-left: 230px;
 position: relative;
 z-index: 2;
 
@@ -114,6 +112,16 @@ display: flex;
 &:hover {
     filter: drop-shadow(0 0 0.75rem hsl(150, 100%, 66%));
 }
+
+@media (max-width: 768px) {
+    &:hover {
+        filter: none;
+    }
+
+    &:active {
+        filter: drop-shadow(0 0 0.75rem hsl(150, 100%, 66%));
+    }
+}
 `;
 
 export const Attribute = styled.div`
@@ -122,8 +130,4 @@ font-size: 12px;
 justify-content: center;
 color: hsl(0, 0%, 100%);
 margin-top: 150px;
-
-@media (max-width: 768px) {
-    margin-top: 180px;
-}
 `;
