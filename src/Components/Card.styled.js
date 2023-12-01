@@ -78,7 +78,7 @@ img.mobile {
 `;
 
 export const Button = styled.button`
-position: absolute;
+position: fixed;
 bottom: 348px;
 width: 65px;
 height: 65px;
